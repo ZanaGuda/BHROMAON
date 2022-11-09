@@ -145,6 +145,32 @@ table {
     width: 100%;
     margin: 0 auto;
 }
+.hamburger {
+    width: 26px;
+    height: 20px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    visibility: hidden;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.hamburger-span::after {
+    content: "";
+    width: 22px;
+    height: 3px;
+    background-color: black;
+    border-radius: 10px;
+    float: left;
+}
+
+.hamburger-links {
+    display: flex;
+    align-items: center;
+}
 
 .hero__title {
     font-family: 'Josefin Sans';
@@ -230,7 +256,7 @@ table {
 
 .hero {
     width: 1770px;
-    height: auto;
+    height: 600px;
     background: url(../img/background.png) no-repeat center;
     width: 100%;
     padding-top: 250px;
@@ -278,6 +304,7 @@ table {
 
 .main-nav__links {
     float: right;
+    margin-left: 465px;
 }
 
 .main-nav__links a {
@@ -599,6 +626,7 @@ table {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
+        margin-left: 50px;
     }
 
     .main-nav__links {
@@ -641,6 +669,28 @@ table {
         margin-top: 171px;
         padding: 20px;
     }
+        .hamburger {
+            visibility: visible;
+            margin-left: 4px;
+        }
+        .shapes{
+            visibility: hidden;
+        }
+        .select-places{
+            margin-bottom: 32px;
+        }
+        .search-places{
+            margin-bottom: 32px;
+        }
+        .options{
+            margin-bottom: 14px;
+            margin-left: 78px;
+        }
+        .search-places__options{
+            display: flex;
+            padding: 80px;
+            flex-direction: column;
+        }
 }
 
 @media (min-width:768px) and (max-width:1024px) {
@@ -683,11 +733,18 @@ table {
     .search {
         visibility: hidden;
     }
-
+ .main-nav__links{
+        margin-left: 168px;
+ }
     .blue-search {
         visibility: visible;
         position: absolute;
         margin-left: 178px;
     }
-
+  .shapes{
+    position: absolute;
+    margin-top: -54px;
+    margin-left: 25px;
+    width: 378px;
+  }
 }
