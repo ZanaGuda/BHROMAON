@@ -482,3 +482,42 @@ table {
     position: relative;
     top: 113px;
 }
+.footer__title {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 3.36px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.footer__text {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.main-footer {
+    background-color: #232323;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    padding: 50px;
+    padding-top: 120px;
+
+}
