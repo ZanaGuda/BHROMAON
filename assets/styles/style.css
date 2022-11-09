@@ -413,3 +413,20 @@ table {
     margin-bottom: 46px;
 
 }
+.book-spain {
+    background: url(../img/ocean.png) no-repeat center;
+    width: 100%;
+    height: 700px;
+}
+
+.book-spain__content {
+    width: 540px;
+    height: 371px;
+    background: #232323;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    position: absolute;
+    margin-top: 229px;
+    margin-left: 600px;
+    padding: 30px;
+}
