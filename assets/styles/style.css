@@ -312,6 +312,8 @@ table {
     padding: 20px;
     border: none;
     text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .choose-us__content {
@@ -362,4 +364,52 @@ table {
 .search-places {
     display: flex;
     flex-direction: column;
+}
+.spain {
+    background: url(../img/house.png) no-repeat center;
+    width: 100%;
+    height: 700px;
+}
+
+.spain__content {
+    width: 540px;
+    height: 371px;
+    background: #232323;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    position: absolute;
+    margin-top: 229px;
+    margin-left: 30px;
+    padding: 30px;
+}
+
+.spain__subtitle {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 23px;
+    color: #E8E8E8;
+}
+
+.spain__title {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 13px;
+}
+
+.spain__text {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #E8E8E8;
+    margin-bottom: 46px;
+
 }
