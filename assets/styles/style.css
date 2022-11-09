@@ -328,3 +328,38 @@ table {
 .choose-us__images {
     margin-top: 211px;
 }
+.search-place {
+    background-color: #333;
+}
+
+.shapes {
+    position: absolute;
+    margin-top: -65px;
+    margin-left: 96px;
+    width: 556px;
+}
+
+.places-text {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+    color: #E8E8E8;
+}
+
+.options {
+    width: 60px;
+    height: 59px;
+}
+
+.search-places__options {
+    display: flex;
+    justify-content: space-between;
+    padding: 130px;
+}
+
+.search-places {
+    display: flex;
+    flex-direction: column;
+}
