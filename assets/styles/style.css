@@ -145,28 +145,7 @@ table {
     width: 100%;
     margin: 0 auto;
 }
-.main-header {
-    background-color: #5474FD;
-}
 
-.main-nav__links {
-    float: right;
-}
-
-.main-nav__links a {
-    text-decoration: none;
-    color: #fff;
-    font-family: 'Aleo';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 26px;
-    margin-left: 11px;
-}
-
-.main-nav {
-    padding: 20px;
-}
 .hero__title {
     font-family: 'Josefin Sans';
     font-style: normal;
@@ -197,6 +176,9 @@ table {
     font-weight: 400;
     font-size: 14px;
     line-height: 26px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
     align-items: center;
     text-align: center;
     letter-spacing: 2.8px;
@@ -207,8 +189,14 @@ table {
 }
 
 .hero__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-top: 48px;
     margin-bottom: 108px;
@@ -249,9 +237,18 @@ table {
 }
 
 .hero__scroll-down {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
@@ -274,6 +271,30 @@ table {
     position: relative;
     left: 67px;
 }
+
+.main-header {
+    background-color: #5474FD;
+}
+
+.main-nav__links {
+    float: right;
+}
+
+.main-nav__links a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    margin-left: 11px;
+}
+
+.main-nav {
+    padding: 20px;
+}
+
 .choose-us {
     background: url(../img/second-background.png) no-repeat center;
     width: 100%;
@@ -303,7 +324,9 @@ table {
 }
 
 .choose {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: repeat(2,2fr);
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
 }
@@ -330,6 +353,7 @@ table {
 .choose-us__images {
     margin-top: 211px;
 }
+
 .search-place {
     background-color: #333;
 }
@@ -356,15 +380,25 @@ table {
 }
 
 .search-places__options {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 130px;
 }
 
 .search-places {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
+
 .spain {
     background: url(../img/house.png) no-repeat center;
     width: 100%;
@@ -377,6 +411,7 @@ table {
     background: #232323;
     mix-blend-mode: normal;
     opacity: 0.9;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
     position: absolute;
     margin-top: 229px;
     margin-left: 30px;
@@ -413,6 +448,7 @@ table {
     margin-bottom: 46px;
 
 }
+
 .book-spain {
     background: url(../img/ocean.png) no-repeat center;
     width: 100%;
@@ -425,11 +461,13 @@ table {
     background: #232323;
     mix-blend-mode: normal;
     opacity: 0.9;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
     position: absolute;
     margin-top: 229px;
     margin-left: 600px;
     padding: 30px;
 }
+
 .reviews {
     background: url(../img/man.png) no-repeat center;
     width: 100%;
@@ -452,6 +490,8 @@ table {
 }
 
 .tourists-thoughts {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 179px;
     padding: 30px;
@@ -482,6 +522,7 @@ table {
     position: relative;
     top: 113px;
 }
+
 .footer__title {
     font-family: 'Josefin Sans';
     font-style: normal;
@@ -511,13 +552,142 @@ table {
 }
 
 .logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
 .footer {
     padding: 50px;
     padding-top: 120px;
+
+}
+
+@media (max-width:767px) {
+    .tourist {
+        display: none;
+    }
+
+    .book-spain__content {
+        width: 334px;
+        height: 380px;
+        margin-left: 34px;
+    }
+
+    .spain__content {
+        width: 334px;
+        height: 380px;
+    }
+
+    .choose-us__images {
+        display: none;
+    }
+
+    .logo {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .main-nav__links {
+        display: none;
+    }
+
+    .btn,
+    .search,
+    .blue-search {
+        display: none;
+    }
+
+    .hero__input {
+        font-size: 13px;
+        line-height: 0px;
+        width: 226px;
+        height: 57px;
+        border-radius: 40px;
+        letter-spacing: 0;
+
+    }
+
+    .hero__title {
+        font-size: 38px;
+    }
+
+    .hero {
+        height: 600px;
+    }
+
+    .choose {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .choose-us__content {
+        margin-top: 171px;
+        padding: 20px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .btn {
+        display: none;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+
+    .hero__input {
+        border-radius: 35px;
+    }
+
+    .choose {
+        margin-left: 42px;
+    }
+
+    .mountain {
+        margin-left: 0;
+    }
+
+    .book-spain__content {
+        margin-left: 230px;
+    }
+
+    .tourist {
+        display: none;
+    }
+
+    .tourists-text {
+        width: 753px;
+    }
+
+    .hero {
+        height: 655px;
+    }
+
+    .search {
+        visibility: hidden;
+    }
+
+    .blue-search {
+        visibility: visible;
+        position: absolute;
+        margin-left: 178px;
+    }
 
 }
