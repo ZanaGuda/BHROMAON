@@ -167,3 +167,110 @@ table {
 .main-nav {
     padding: 20px;
 }
+.hero__title {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 11px;
+}
+
+.hero__subtitle {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 6.82px;
+    color: #FFFFFF;
+}
+
+.hero__input {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2.8px;
+    width: 500px;
+    height: 65px;
+    color: #fff;
+
+}
+
+.hero__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 108px;
+}
+
+.blue-search {
+    visibility: hidden;
+}
+
+.btn {
+    background-color: #5474FD;
+    border: 2px solid #FFFFFF;
+    width: 153px;
+    height: 63px;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+.customed-btn {
+    padding-right: 18px;
+    position: absolute;
+    margin-left: 530px;
+}
+
+.hero {
+    width: 1770px;
+    height: auto;
+    background: url(../img/background.png) no-repeat center;
+    width: 100%;
+    padding-top: 250px;
+}
+
+.hero__scroll-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.scroll {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2.8px;
+    color: #FFFFFF;
+}
+
+.arrow-down {
+    width: 18px;
+    height: 9px;
+}
+
+.search {
+    position: relative;
+    left: 67px;
+}
