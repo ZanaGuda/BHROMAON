@@ -274,3 +274,57 @@ table {
     position: relative;
     left: 67px;
 }
+.choose-us {
+    background: url(../img/second-background.png) no-repeat center;
+    width: 100%;
+    height: 685px;
+
+}
+
+.choose-us__title {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.choose-us__text {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+    color: #E8E8E8;
+    margin-bottom: 45px;
+}
+
+.choose {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+}
+
+.btn--purple {
+    padding: 20px;
+    border: none;
+    text-decoration: none;
+}
+
+.choose-us__content {
+    margin-top: 211px;
+}
+
+.mountain {
+    width: 350px;
+    height: 220px;
+    margin-left: 85px;
+    margin-top: 10px;
+}
+
+.choose-us__images {
+    margin-top: 211px;
+}
